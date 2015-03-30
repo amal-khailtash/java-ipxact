@@ -14,6 +14,7 @@ References
   * [The SPIRIT Consortium - Reference BusDefs](http://www.accellera.org/BusDefs/)
   * [IP-XACTTC](http://sourceforge.net/projects/ip-xacttc/)
   * [IEEE Std 1685-2009 - IEEE Standard for IP-XACT, Standard Structure for Packaging, Integrating, and Reusing IP within Tool Flows - 2010-02-18.pdf](http://standards.ieee.org/getieee/1685/download/1685-2009.pdf)
+  * [IEEE Std 1685-2014 - IEEE Standard for IP-XACT, Standard Structure for Packaging, Integrating, and Reusing IP within Tool Flows - 2014-06-12.pdf](http://standards.ieee.org/getieee/1685/download/1685-2014.pdf)
 * IPXACT-Ruby:
   * [System Level Synthesis (SLS) project page](http://tima-sls.imag.fr/www/research/ipxact/)
   * [IPXACT-Ruby](http://rubygems.org/gems/ipxact-ruby/)

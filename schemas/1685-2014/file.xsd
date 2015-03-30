@@ -2,48 +2,48 @@
 <!--
 // Description : file.xsd
 // Author: The Accellera System Initiative IP-XACT Schema Working Group
-// 
+//
 // Revision:    $Revision: 1537 $
 // Date:        $Date: 2010-02-26 13:28:40 -0800 (Fri, 26 Feb 2010) $
-// 
-// Copyright (c) 2005 - 2012 Accellera Systems Initiative Inc. 
+//
+// Copyright (c) 2005 - 2012 Accellera Systems Initiative Inc.
 // All rights reserved.
-// 
-// This source file is provided on an AS IS basis. The Accellera 
-// Systems Initiative disclaims any warranty express or implied 
-// including any warranty of merchantability and fitness for use 
+//
+// This source file is provided on an AS IS basis. The Accellera
+// Systems Initiative disclaims any warranty express or implied
+// including any warranty of merchantability and fitness for use
 // for a particular purpose.
-// 
-// The user of the source file shall indemnify and hold The Accellera 
+//
+// The user of the source file shall indemnify and hold The Accellera
 // Systems Initiative and its members harmless from any damages or liability.
-// 
+//
 // This file may be copied, and distributed, WITHOUT
 // modifications; this notice must be included on any copy.
-// 
+//
 // This schema shall not be modified, adapted, altered, sublicensed, nor
 // any derivative works shall be created based upon the schema.  The
 // intended and allowed uses of the schema include:
-// 
+//
 //  o Creating and validating XML documents that conform to the schema
-// 
+//
 //  o Building software programs and systems based on the schema
-// 
+//
 //  o Distributing verbatim copy of the schema as long as the full text
 //  of this license is included in all copies of the schema.
 //  Specifically, a tool may include full copies of the schema, and these
 //  copies may be distributed by the tool provider directly.  A link or
 //  URL to the original of the schema is inherent in the schema URI.
-// 
+//
 //  o Documents which are validated against this schema may also
 //  reference additional schema. These additional schemas may provide for
 //  validation of elements and attributes at the extension points
 //  explicitly and implicitly included in the IEEE 1685-???? standard.
-// 
+//
 //  o No right to create new schemas derived from parts of this base
 //  schema is granted pursuant to this License.
-// 
-// Users are requested to provide feedback to The Accellera Systems 
-// Initiative IP-XACT Schema Working Group using: 
+//
+// Users are requested to provide feedback to The Accellera Systems
+// Initiative IP-XACT Schema Working Group using:
 // mailto:ip-xact-swg@lists.accellera.org
  -->
 <xs:schema xmlns:ipxact="http://www.accellera.org/XMLSchema/IPXACT/1685-2014" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.accellera.org/XMLSchema/IPXACT/1685-2014" elementFormDefault="qualified">
@@ -61,9 +61,9 @@
                         <xs:documentation>Path to the file or directory. If this path is a relative path, then it is relative to the containing XML file. </xs:documentation>
                     </xs:annotation>
                 </xs:element>
-		            <xs:element ref="ipxact:isPresent" minOccurs="0"/>
+                <xs:element ref="ipxact:isPresent" minOccurs="0"/>
                 <xs:element ref="ipxact:fileType" maxOccurs="unbounded"/>
-             		<xs:element name="isStructural" type="xs:boolean" default="false" minOccurs="0">
+                 <xs:element name="isStructural" type="xs:boolean" default="false" minOccurs="0">
                     <xs:annotation>
                         <xs:documentation>Indicates that the current file is purely structural.</xs:documentation>
                     </xs:annotation>
@@ -197,8 +197,8 @@
         </xs:annotation>
         <xs:complexType>
             <xs:sequence>
-			          <xs:group ref="ipxact:nameGroup"/>
-			          <xs:element ref="ipxact:parameters" minOccurs="0">
+                <xs:group ref="ipxact:nameGroup"/>
+                <xs:element ref="ipxact:parameters" minOccurs="0">
                     <xs:annotation>
                         <xs:documentation>Additional information about the load module, e.g. stack base addresses, table addresses, etc.</xs:documentation>
                     </xs:annotation>
@@ -317,7 +317,7 @@ If the value is true and the "flags" element is empty or missing, this will have
                         <xs:documentation>Refers to a fileSet defined within this description.</xs:documentation>
                     </xs:annotation>
                 </xs:element>
-		<xs:element ref="ipxact:isPresent" minOccurs="0"/>
+    <xs:element ref="ipxact:isPresent" minOccurs="0"/>
             </xs:sequence>
             <xs:attributeGroup ref="ipxact:id.att"/>
         </xs:complexType>
@@ -500,7 +500,7 @@ This is an extension of the name-value pair which includes the data type in the 
         </xs:simpleContent>
       </xs:complexType>
     </xs:element>
-    
+
     <xs:complexType name="ipxactURI">
         <xs:annotation>
             <xs:documentation>IP-XACT URI, like a standard xs:anyURI except that it can contain environment variables in the ${ } form, to be replaced by their value to provide the underlying URI</xs:documentation>

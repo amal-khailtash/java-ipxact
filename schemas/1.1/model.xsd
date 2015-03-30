@@ -1,168 +1,107 @@
-
-        
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-    <link rel="stylesheet" href="/kstyles/global.css" type="text/css" />
- 
-
-
-    <!--[if IE 8]>
-        <link rel="stylesheet" type="text/css" media="screen,projection" href="/kstyles/ws-ie8.css" />
-    <![endif]-->
-    <!--[if IE 7]>
-        <link rel="stylesheet" type="text/css" media="screen,projection" href="/kstyles/ws-ie7.css" />
-    <![endif]-->
-    <!--[if IE 6]>
-        <link rel="stylesheet" type="text/css" media="screen,projection" href="/kstyles/ws-ie6.css" />
-    <![endif]-->
-    <!--[if lt IE 7]>
-<script src="/javascript/ieHover.js" type="text/javascript"></script>
-<![endif]-->
-
-<!--Urchin Script--><script src="/javascript/utm.js" type="text/javascript"></script><!--/Urchin Script--> 
-  <script type="text/javascript" src="/kjavascript/dotorg/jquery.js?khash=9eb33df93b21325142088527103882d2"></script>
-<script type="text/javascript" src="/kjavascript/dotorg/jquery.cookie.js?khash=384772142d1907d7d3aea3ac11fad9d0"></script>
-<script type="text/javascript" src="/kjavascript/dotorg/functions.js?khash=4b4791b3cf2b0138466d9b262cc7f311"></script>
-<script type="text/javascript" src="/kjavascript/dotorg/kwsGlobal.js?khash=9846c45d8c60888cc35d55a4e8bfefb3"></script>
-<script type="text/javascript" src="/kjavascript/dotorg/has-ajax.js?khash=72a502097c6927b4e8d03e10001931bb"></script>
-<script type="text/javascript" src="/kjavascript/dotorg/action_menu.js?khash=744bc66450a604d41dd312ce7dca8a68"></script>
-<script type="text/javascript" src="/kjavascript/dotorg/floatbox.js?khash=1867e44c55d7096712dced781a086426"></script>
-<script type="text/javascript" src="/kjavascript/dotorg/jquery.form.js?khash=220681af3b8829dc9dc446cda87105c1"></script>
-<script type="text/javascript" src="/kjavascript/dotorg/add-doc-modal.js?khash=2cae6a4c8613f5a645200e8ca080dcbe"></script>
-  
-    <title>XMLSchema - Accellera Systems Initiative</title>
-</head> 
-<body>
-<div id="container">
-  <div id="header">
-  <div id="logo"><a href="/"><img src="/zimages/accellerasi_logo.png" border="0" alt="Accellera Systems Initiative" /></a></div>
-</div><a href="#pagecontent" id="skipnav">Skip Nav</a>
-  <div id="topnavigation">
-  <ul class="navlist1">
-    <li><a id="about_navNode_1"  href="/about/">About Us</a>  <ul class="navlist2">
-    <li><a id="about_overview_2"  href="/about">Overview</a></li>
-    <li><a id="board_navNode_2"  href="/about/board/">Board of Directors</a></li>
-    <li><a id="members_navNode_2"  href="/about/members/">Members</a></li>
-    <li><a id="join_navNode_2"  href="/about/join/">How to Join</a></li>
-    <li><a id="policies_navNode_2"  href="/about/policies/">Policies and Procedures</a>  <ul class="navlist3">
-    <li><a id="logos_navNode_3"  href="/about/policies/logos/">Logo Use</a></li>
-  </ul></li>
-    <li><a id="mergerfaq_navNode_2"  href="/about/mergerfaq/">FAQ</a></li>
-    <li><a id="awards_navNode_2"  href="/about/awards/">Awards</a></li>
-    <li><a id="dvcon_navNode_2"  href="/about/dvcon/">Design & Verification Conference</a></li>
-    <li><a id="contact_us_navNode_2"  href="/about/contact_us/">Contact Us</a></li>
-  </ul></li>
-    <li><a id="activities_navNode_1"  href="/activities/">Technical Activities</a>  <ul class="navlist2">
-    <li><a id="activities_overview_2"  href="/activities">Overview</a></li>
-    <li><a id="committees_navNode_2"  href="/activities/committees/">Technical Committees</a></li>
-    <li><a id="ieee_navNode_2"  href="/activities/ieee/">IEEE Activities</a></li>
-    <li><a id="acronyms_navNode_2"  href="/activities/acronyms/">Acronyms and Definitions</a></li>
-  </ul></li>
-    <li><a id="downloads_navNode_1"  href="/downloads/">Downloads</a>  <ul class="navlist2">
-    <li><a id="downloads_overview_2"  href="/downloads">Overview</a></li>
-    <li><a id="standards_navNode_2"  href="/downloads/standards/">Accellera Systems Initiative Standards</a></li>
-    <li><a id="drafts_review_navNode_2"  href="/downloads/drafts_review/">Drafts Under Public Review</a></li>
-    <li><a id="ieee_navNode_2"  href="/downloads/ieee/">IEEE Standards</a></li>
-  </ul></li>
-    <li><a id="community_navNode_1"  href="/community/">Community</a>  <ul class="navlist2">
-    <li><a id="community_overview_2"  href="/community">Overview</a></li>
-    <li><a id="signup_navNode_2"  href="/community/signup/">Sign Up</a></li>
-    <li><a id="articles_navNode_2"  href="/community/articles/">Articles and Insights</a></li>
-    <li><a id="user_groups_navNode_2"  href="/community/user_groups/">Regional User Groups</a></li>
-    <li><a id="websites_navNode_2"  href="/community/websites/">Related Websites</a></li>
-    <li><a id="promote_navNode_2"  href="/community/promote/">Promote Your Standards-related Activities</a></li>
-  </ul></li>
-    <li><a id="news_navNode_1"  href="/news/">News &amp; Events</a>  <ul class="navlist2">
-    <li><a id="news_overview_2"  href="/news">Overview</a></li>
-    <li><a id="pressreleases_navNode_2"  href="/news/pressreleases/">Accellera Systems Initiative Press Releases</a></li>
-    <li><a id="events_navNode_2"  href="/news/events/">Events</a></li>
-    <li><a id="videos_navNode_2"  href="/news/videos/">Videos</a></li>
-    <li><a id="mc_navNode_2"  href="/news/mc/">Media Coverage</a></li>
-    <li><a id="newsletter_navNode_2"  href="/news/newsletter/">Newsletter</a></li>
-    <li><a id="accellerapr_navNode_2"  href="/news/accellerapr/">Accellera Press Releases</a></li>
-    <li><a id="oscipr_navNode_2"  href="/news/oscipr/">OSCI Press Releases</a></li>
-    <li><a id="membernews_navNode_2"  href="/news/membernews/">Member Press Releases</a></li>
-    <li><a id="pr_navNode_2"  href="/news/pr/">Press Release Search and Archive</a></li>
-    <li><a id="submitpr_navNode_2"  href="/news/submitpr/">Submit Press Release (members only)</a></li>
-  </ul></li>
-    <li><a id="Discussion_Forums_navNode_1"  href="/Discussion_Forums/">Forums</a>  <ul class="navlist2">
-    <li><a id="Discussion_Forums_overview_2"  href="/Discussion_Forums">Overview</a></li>
-    <li><a id="announcements_navNode_2"  href="/Discussion_Forums/announcements/">Announcements</a></li>
-    <li><a id="ams_forum_navNode_2"  href="/Discussion_Forums/ams_forum/">AMS Forum</a></li>
-    <li><a id="cci_forum_navNode_2"  href="/Discussion_Forums/cci_forum/">CCI Forum</a></li>
-    <li><a id="community_forum_navNode_2"  href="/Discussion_Forums/community_forum/">Community Forum</a></li>
-    <li><a id="esl_forum_navNode_2"  href="/Discussion_Forums/esl_forum/">ESL Forum</a></li>
-    <li><a id="helpforum_navNode_2"  href="/Discussion_Forums/helpforum/">Help Forum</a></li>
-    <li><a id="synthesis_forum_navNode_2"  href="/Discussion_Forums/synthesis_forum/">Synthesis Forum</a></li>
-    <li><a id="systemc-forum_navNode_2"  href="/Discussion_Forums/systemc-forum/">SystemC Forum</a></li>
-    <li><a id="tlm2_forum_navNode_2"  href="/Discussion_Forums/tlm2_forum/">TLM-2 Forum</a></li>
-    <li><a id="Discussion_Forums_UVM Forums_2"  href="http://www.uvmworld.org/forums/">UVM Forums</a></li>
-  </ul></li>
-    <li><a id="ContentRoot_workspace_1"  href="/kws/">WORKSPACE</a></li>
-  </ul></div>
-
-  <div id="search">
-   <form action='/results' id="cse-search-box">
-      <input name="q" type="text" class="text" size="15" />
-      <input name="submit" type="submit" class="button" value="Search" />
-   </form>
-   <div id="login" style="margin-top:7px; margin-left:13px;">
-      <div id="memberlinks">&nbsp;&nbsp;&nbsp;<a href="/kws/">Log In</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/logout/">Log Out</a></div>
-   </div>
-   
-</div>
-<script type="text/javascript" src="http://www.google.com/cse/brand?form=cse-search-box&lang=en"></script>  
-  <div id="maincontent">
-    <div id="menu">
-  <ul class="navlist2">
-    <li><a title="SPIRIT" class="menuon" href="/XMLSchema/SPIRIT/">SPIRIT</a>  <ul class="navlist3">
-    <li><a title="1685-2009"  href="/XMLSchema/SPIRIT/1685-2009/">1685-2009</a></li>
-    <li><a title="/SPIRIT/1.5"  href="/XMLSchema/SPIRIT/1.5/">/SPIRIT/1.5</a></li>
-    <li><a title="/SPIRIT/1.5alpha"  href="/XMLSchema/SPIRIT/1.5alpha/">/SPIRIT/1.5alpha</a></li>
-    <li><a title="/SPIRIT/1.4"  href="/XMLSchema/SPIRIT/1.4/">/SPIRIT/1.4</a></li>
-    <li><a title="/SPIRIT/1.4beta1"  href="/XMLSchema/SPIRIT/1.4beta1/">/SPIRIT/1.4beta1</a></li>
-    <li><a title="/SPIRIT/1.4 alpha3"  href="/XMLSchema/SPIRIT/1.4alpha3/">/SPIRIT/1.4 alpha3</a></li>
-    <li><a title="/SPIRIT/1.2"  href="/XMLSchema/SPIRIT/1.2/">/SPIRIT/1.2</a></li>
-    <li><a title="/SPIRIT/1.1"  href="/XMLSchema/SPIRIT/1.1/">/SPIRIT/1.1</a></li>
-    <li><a title="/SPIRIT/1.0"  href="/XMLSchema/SPIRIT/1.0/">/SPIRIT/1.0</a></li>
-  </ul></li>
-  </ul></div>
-
-    <div id="pagecontent"><div id="crumbs"><a href="/">Home</a>&#32;&raquo;&#32;<a href="/XMLSchema/">XML&nbsp;Schema</a>&#32;&raquo;&#32;<b>SPIRIT</b></div>
-<h1>This page has moved or no longer exists.</h1>
-
-<p>Accellera (www.accellera.org) and the Open SystemC Initiative (OSCI, www.systemc.org) have recently merged. The combined Accellera Systems Initiative website (www.accellera.org) has undergone many changes and will continue to evolve in the near future.</p>
-
-<p>Please use the navigation menu or Search field to locate the information you wish to find. If you need additional help, <a href='/about/contact_us'>contact us</a>.</p>
-
-<p>Thank you,</p>
-
-<p>Accellera Systems Initiative</p>
-</div>
-    <div id="footer">
-    <ul id="nav-tertiary">
-        <li><a href="/">Home</a> |</li>
-        <li><a href="/about/privacy/">Privacy Policy</a> |</li>
-        <li><a href="/kmembership_info/request_password/">Password Help</a> |</li>
-        <li><a href="/about/site_help">Site Help</a> |</li>
-        <li><a href="/map/index_html?expand_all=1">Site Map</a> |</li>
-        <li><a href="/about/contact_us/">Contact Us</a></li>
-    </ul>
-    
-    <p class="kavi"><a href="http://www.kavi.com">Kavi</a>&#174;</p>
-    
-    <p class="copyright">Copyright &#169; 2012 <a href="/">Accellera Systems Initiative</a>. All rights reserved.</p>
-               
-</div>
-
-
-  </div>
-</div>
-</body>
-</html>
-
-
-        
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+// Description : model.xsd
+// Author : SPIRIT Schema Working Group
+// Version:     $Revision: 123 $
+// Date:        $Date: 2005-05-03 07:48:36 -0500 (Tue, 03 May 2005) $
+// Tag:         $Name$
+//
+// Copyright (c) 2005 SPIRIT.  All rights reserved.
+// www.spiritconsortium.com
+//
+// THIS WORK FORMS PART OF A SPIRIT CONSORTIUM SPECIFICATION.
+// THIS WORK CONTAINS TRADE SECRETS AND PROPRIETARY INFORMATION
+// WHICH IS THE EXCLUSIVE PROPERTY OF INDIVIDUAL MEMBERS OF THE
+// SPIRIT CONSORTIUM. USE OF THESE MATERIALS ARE GOVERNED BY
+// THE LEGAL TERMS AND CONDITIONS OUTLINED IN THE SPIRIT
+// SPECIFICATION DISCLAIMER AVAILABLE FROM
+// www.spiritconsortium.org
+-->
+<xs:schema targetNamespace="http://www.spiritconsortium.org/XMLSchema/SPIRIT/1.1" xmlns:spirit="http://www.spiritconsortium.org/XMLSchema/SPIRIT/1.1" xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="qualified">
+  <xs:include schemaLocation="commonStructures.xsd"/>
+  <xs:include schemaLocation="file.xsd"/>
+  <xs:include schemaLocation="signal.xsd"/>
+  <xs:complexType name="viewType">
+    <xs:sequence>
+      <xs:element name="name" type="xs:NMTOKEN" default="default">
+        <xs:annotation>
+          <xs:documentation>Name of the view. Must be unique within a component</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="envIdentifier" type="xs:string" maxOccurs="unbounded">
+        <xs:annotation>
+          <xs:documentation>This is a string such as "ModelsimVerilog", used to uniquely identify the hardware environment. More than one indicates that the same information applies to multiple environments.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="language" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>The hardware description language used such as "verilog" or "vhdl". If the attribute "strict" is "true", this value must match the language being generated for the design.</xs:documentation>
+        </xs:annotation>
+        <xs:complexType>
+          <xs:simpleContent>
+            <xs:extension base="xs:token">
+              <xs:attribute name="strict" type="xs:boolean"/>
+            </xs:extension>
+          </xs:simpleContent>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="modelName" type="xs:string" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>HDL-specific name to identify the model.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="defaultFileBuilder" type="spirit:fileBuilderType" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element ref="spirit:fileSetRef" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element ref="spirit:constraintSetRef" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:group ref="spirit:parameterGroup"/>
+      <xs:element ref="spirit:vendorExtensions" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="hwModelType">
+    <xs:annotation>
+      <xs:documentation>Hardware model information.</xs:documentation>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="views" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>View container</xs:documentation>
+        </xs:annotation>
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="view" type="spirit:viewType" minOccurs="0" maxOccurs="unbounded"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="signals" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>Signal container</xs:documentation>
+        </xs:annotation>
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element ref="spirit:signal" minOccurs="0" maxOccurs="unbounded"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="hwParameters" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>Hardware parameter name value pairs container</xs:documentation>
+        </xs:annotation>
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="hwParameter" type="spirit:nameValueTypeType" minOccurs="0" maxOccurs="unbounded">
+              <xs:annotation>
+                <xs:documentation>A hardware parameter name value pair.  The name is given in an attribute.  The value is the element value. The dataType (applicable to high level modeling) is given in the dataType attribute. The name should be identical to the RTL (VHDL generic or Verilog parameter)</xs:documentation>
+              </xs:annotation>
+            </xs:element>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element ref="spirit:vendorExtensions" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="hwModel" type="spirit:hwModelType">
+    <xs:annotation>
+      <xs:documentation>Hardware model information.</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+</xs:schema>
