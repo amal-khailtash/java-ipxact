@@ -38,7 +38,3 @@ References
 [1]: http://docs.oracle.com/javase/7/docs/technotes/tools/share/xjc.html  "Java™ Architecture for XML Binding Binding Compiler"
 [2]: http://www.accellera.org/XMLSchema                                   "Accellera SPIRIT IP-XACT Schemas"
 
-
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/amal-khailtash/spirit-ipxact-java/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
